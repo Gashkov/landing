@@ -1,0 +1,101 @@
+body { font-weight: normal; font-size: 14px; min-width: 320px; position: relative; line-height: 1; -webkit-font-smoothing: antialised;
+  margin: 0; padding: 0;}
+.clearfix { clear: both; overflow: auto; }
+.wrapper { width: 100%; margin: 0 auto; }
+#fp-nav ul li:last-child { display: none; }
+
+/*-----------------
+    Title
+------------------*/
+.title { background: #218fed; }
+.logo { display: block; }
+.logo img { margin: 0 auto; display: block; }
+.logo strong { display: block; text-indent: 100%; white-space: nowrap; overflow: hidden;}
+.header-title { text-align: center; width: 43%; margin: 0 auto; color: #fff; font-size: 86px; font-family: 'Geomanist-Medium';
+  font-weight: normal; padding: 15% 0 20% 0;}
+
+/*---------------
+    UX-designs
+-----------------*/
+.ux-designs { background: url(../images/dark-blue_screen.png) 50% 50%; background-size: 100% 100%; position: relative; }
+.designs-title { color: #fff; text-align: center; margin: 0; padding: 40px 0; font-family: 'OpenSans-Bold'; font-size: 42px;}
+.subtitle { text-align: center; color: #343469; margin: 0; font-family:'OpenSans-Regular'; font-size: 22px; padding-bottom: 50px; }
+.portfolio { display: block; margin: 0 auto; width: 70%; }
+.t-shirt { width: 40%; }
+.mobile { width: 51%; position: absolute; bottom: 0; left: 25%; }
+.wrap { padding: 2% 0 38% 0; }
+
+/*----------------
+    Web-designs
+-----------------*/
+.web-designs { background: #1b1b44; position: relative;}
+.web-portfolio { width: 80%; position: absolute; bottom: 0; }
+
+/*-----------------
+  T-shirts-designs
+------------------*/
+
+.shirt-design { background: #090e14; }
+.shirt-subtitle { color: #1b2735; margin: 20px 0 35px 0; margin-bottom: 0; }
+
+/*-----------------
+    Footer
+------------------*/
+
+.footer { background: #0e0e1d; }
+.footer-title { color: #97d369; text-align: center; font-family:'OpenSans-Bold'; font-size: 46.6px; margin: 0;
+ padding: 0 0 48px 0; }
+.wrap-email { padding-bottom: 39px; }
+.wrap-footer { padding: 20% 0 20% 0; }
+.email { display: block; text-align: center; font-family:'OpenSans-Light'; font-size: 36.6px; color: #343450; text-decoration: none; }
+.email:hover { text-decoration: underline; }
+.social-media { width: 20%; margin: 0 auto; padding: 0 0 0 0; }
+.social-media li { list-style: none; display: inline-block; width: 23%; }
+/* .social-media :last-child { margin-right: 0; } */
+.social-media img { display: block; margin: 0 auto; }
+.author { color: #343450; margin: 0 0 0 2%; }
+.author img { float: left; margin-top: 9px; }
+.author p { float: left; font-size: 20.6px; font-family:'OpenSans-Light'; margin-left: 30px; }
+
+/*-------------
+    Media
+--------------*/
+@media only screen and (max-width : 1380px) {
+.portfolio { width: 40%; }
+.mobile { width: 42% !important; left: 30%; }
+.wrap-desctop { padding-bottom: 31%; }
+.social-media { width: 20%; margin: 0 auto; padding: 0 0 15% 0; }
+.logo img { padding-top: 20px; }
+.header-title { padding: 11% 0 18% 0; }
+.web-wrap { padding: 2% 0 32% 0; }
+.web-portfolio { width: 75%; }
+.wrap-footer { padding: 11% 0 3% 0; }
+}
+@media only screen and (max-width : 1320px) {
+.header-title { width: 90%; text-align: center; }
+
+}
+
+@media only screen and (max-width : 950px) {
+.mobile { width: 55% !important; left: 25%; }
+.web-portfolio { width: 90%; }
+}  
+@media only screen and (max-width : 700px) {
+.header-title { font-size: 50px; }
+.logo { width: 100%; margin: 0 auto; padding: 0; text-align: center; }
+.social-media { width: 50%; padding: 0 0 50px 0; }
+.social-media li { margin-right: 0; width: 23%; }
+.social-media img { text-align: center; display: block;}
+} 
+@media only screen and (max-width : 470px) {
+#fp-nav.right { right: 10px !important;}
+.header-title { font-size: 35px;  }
+.subtitle { width: 80%; margin: 0 auto !important; }
+.t-shirt { width: 65%; }
+.footer-title { padding-top: 45px; width: 90%; margin: 0 auto; text-align: center; font-size: 30px;}
+.email { font-size: 20px; display: block; width: 70%; margin: 0 auto;}
+.author p { margin: 22px 0 0 0; font-size: 12.6px;  }
+}
+@media only screen and (max-width : 470px) {
+  .mobbile { width: 110% !important; }
+}  
