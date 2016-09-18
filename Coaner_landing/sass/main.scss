@@ -1,0 +1,301 @@
+html, body { padding: 0; margin: 0; height: 100%; }
+body { font-family:'Lato-Regular'; }
+ul { margin: 0; padding: 0; }
+li { list-style: none; }
+$bold: 'Lato-Bold';
+.clearfix { clear: both; overflow: auto; }
+
+/*Back to top*/
+#back-to-top { position: fixed; bottom: 55px; right: 40px; z-index: 9999; width: 32px; height: 32px;
+  text-align: center; line-height: 30px; color: #444; cursor: pointer; border: 0; border-radius: 2px;
+  text-decoration: none; transition: opacity 0.2s ease-out; opacity: 0;}
+#back-to-top.show { opacity: 1;}
+
+
+
+/*-------------------
+      header  
+--------------------*/
+
+.header { width: 100%; background: url(../img/header-background.jpg) no-repeat center center ;
+  position: relative; background-size: cover; min-height: 460px; height: 100vh; }
+.logo { text-align: center; float: left; margin: 0 0 0 20px; }  
+.logo strong { display: block; text-indent: -99999px; }
+.dropdown { position: absolute; right: 5px; top: 10px; z-index: 5; }
+.dropdown-toggle { border: none; background: none; color: #fff; font-family: $bold; }
+.dropdown-menu li a { font-weight: bold; }
+
+// nav
+
+.navbar-brand strong { display: block; text-indent: -9999px; }
+.navbar-nav { margin-left: 30%;}
+.navbar-nav li a { font-size: 16px; }
+.nav>li { border-radius: 4px; letter-spacing: 0; }
+.nav>li:hover { color: #fff;  } 
+.navbar-nav li a:hover { color: #555 !important; transition: 500ms; }
+.navbar-right { margin: 32px 0 0 0; }
+.navbar-right>li:hover { background: none; }
+.ancLinks { color: #fff !important; font-family: $bold; }
+.logo-middle { display: none; }
+.navbar-default { background: #a5c2f6; }
+
+
+/*---------------------
+      history
+-----------------------*/
+
+.present-block { background: url(../img/history-background.jpg) 50% 50% no-repeat; 
+background-size: 100% 100%; height: 85vh; text-align: center; color: #fff; }
+.title { font-family:'Lato-Bold'; font-size: 45px; margin: 0 0 40px 0; padding: 80px 0 0 0;}
+.name {  font-family:'Bringin-Regular'; font-size: 70px; font-weight: thin; margin: 0 0 20px 0; }
+.description { font-size: 15px; width: 60%; margin: 0 auto; margin-top: 30px; }
+
+/*----------------------
+    Gallery
+------------------------*/
+
+.gallery { }
+.gallery-center { max-width: 1200px; margin: 0 auto; }
+.gallery-title { font-family: $bold; font-size: 23px; color: #201600; text-align: center; margin: 60px 0 40px 0; }
+.image-row img { cursor: pointer; width: 100%; display: inline-block; margin-bottom: 50px; }
+.last-image-row { text-align: right; }
+.middle-image-row { text-align: center; }
+.gal img { height: 100vh; }
+.image04, .image09, .image11 { height: 247px; }
+
+
+
+/*------------------------
+    Plan
+-------------------------*/
+.plan { background: url(../img/plan-bg.jpg) 50% 50% no-repeat; background-size: 100% 100%; height: 1200px; }
+.plan-title { font-family: $bold; text-align: center; color: #fff; font-size: 35px; margin: 0; padding: 80px 0; }
+.plan-description { text-align: center; font-family:'Lato-Semibold'; font-size: 14px; color: #fff; }
+.plan-description span { display: block; }
+.bottom-description { margin-bottom: 80px; }
+.plan-image { display: block; max-width: 900px; width: 100%; margin: 0 auto; }
+.wrap-plan { max-width: 900px; margin: 0 auto; position: relative; }
+.wrap-plan span { cursor: pointer; display: block; position: absolute; }
+.top-plan-description { color: #fff; font-size: 15px; position: initial !important; }
+
+//links rooms
+
+.habitacio { height: 47%; width: 15%; top: 6%; }
+.piscina { top: 55%; width: 13%; height: 21%; }
+.barbacoa { top: 77%; width: 12.5%; height: 22%; }
+.exteriors { top: 83.2%; width: 10%; height: 16%; left: 13.8%; }
+.sala-jocs { top: 71.2%; width: 6%; height: 23%; left: 43%;  }
+.entrada { top: 83.2%; width: 7%; height: 16%; left: 23.5%; }
+.sala-destar { top: 41.2%; width: 14%; height: 57%; left: 30.5%; }
+.habitacio-cuino { top: 11%; width: 11%; height: 41%; left: 51.5%; }
+.llar { top: 71%; width: 12%; height: 27%; left: 51.5%; }
+.mrenjador { top: 10.2%; width: 13%; height: 42%; right: 22.5%; }
+.cuina { top: 10.2%; width: 13%; height: 13%; right: 9.5%; }
+.habitacio-forn { top: 24%; width: 13%; height: 23%; right: 9.5%; }
+.habitacio-alcoves { top: 60%; width: 24%; height: 36%; right: 9.5%; }
+.toggle-mnu { display: none; position: fixed; width: 100%; height: 100%; background-color: rgba(155, 155, 154, 0.65); z-index: 50;
+   right: 0; top: 0; }
+.toggle-mnu img { display:block; margin: 0 auto; z-index: 9999; width: 90%; }
+.plan-img img { margin-top: 20px; }
+
+
+/*--------------------
+    Places
+---------------------*/
+
+.places { text-align: center; background: url(../img/places-bg.jpg) 50% 50%; background-size: 100% 100%;
+ height: 1140px; }
+.places-title { margin: 0; font-family: $bold; font-size: 23px; padding: 50px 0  10px 0; color: #201600;  }
+.places a { color: #201600; } 
+.places-description, .places-subtitle { color: #201600; width: 60%; margin: 0 auto; font-family: 'Lato-Semibold';
+  font-size: 14px; margin-bottom: 50px; }
+.bottom-link { display: block; text-align: center; font-size: 16px; }
+.bottom-link:hover { text-decoration: underline; color: #000; transition: 500ms; }
+.places-gallery { max-width: 1200px; margin: 0 auto; }
+.places-gallery img { width: 90%; display: inline-block; height: 222px; }
+.places-gallery span { display: block; text-align: left; width: 90%; margin: 0 auto; margin-bottom: 60px;
+ color: #201600; font-family:'Lato-Semibold'; font-size: 13px; padding-top: 15px; }
+.row-places-gallery { margin-top: 80px; }
+
+/*------------------
+    rate
+-------------------*/
+
+.rate { font-family:'Lato-Semibold'; background: url(../img/tarif-bg.jpg) 50% 50% no-repeat;
+ background-size: 100% 100%; height: 850px; }
+.rate-title { color: #fff; font-family: $bold; font-size: 23px; text-align: center;
+ margin: 0; padding: 70px 0 50px 0; }
+.rate-price { max-width: 600px; width: 100%; margin: 0 auto; margin-bottom: 80px; }
+.first-rate { margin-right: 80px; }
+.first-rate, .second-rate { background: url(../img/price-bg.png) 50% 50% no-repeat;
+ background-size: 100% 100%; width: 43%; height: 300px; }
+.weekend { display: block; text-align: center; font-family: $bold; font-size: 12px; padding-top: 20px; color: #fff; }
+.condition { text-align: center; color: #fff; width: 90%; margin: 0 auto; }
+.condition span { display: block; font-size: 15px; }
+.condition-title { font-family:'Lato-Semibold'; font-size: 18px; margin-bottom: 40px; }
+.condition-description { font-size: 15px; }
+.price-coast { display: block; text-align: center; font-family:'Lato-Light'; font-size: 56px; 
+color: #fff; padding-top: 40px; }
+.euro { font-size: 14px; }
+.rate-description { text-align: center; display: block; color: #fff; font-size: 12px; width: 57%;
+ margin: 0 auto; padding-top: 55px; }
+.bottom-condition-description { margin-top: 50px; }
+
+/*-------------------
+  datepicker
+--------------------*/
+
+.datepicker { }
+.datepicker-script { margin: 0 auto; width: 100%; margin-top: 40px; }
+.datepicker iframe { max-width: 685px; width: 100%; }
+.resultWidget { width: 100% !important; }
+
+/*---------------------
+    map
+----------------------*/
+
+.map { }
+.map-link { }
+.map-link img { width: 100%; }
+
+/*----------------------
+    contact
+----------------------*/
+
+.contact { }
+.contact-title { font-size: 29px; font-family: $bold; color: #201600; text-align: center; margin: 0;
+ padding: 40px 0 30px 0;  }
+.contact-center { max-width: 1000px; margin: 0 auto; margin-bottom: 40px; }
+.contact-center img { width: 60%; }
+.left-brand img { display: block; float: right; padding-top: 20px; }
+.center-brand img { display: block; margin: 0 auto; width: 40%; }
+.contact-info  span { color: #201600; display: block; text-align: left; font-size: 14px; }
+.contact-info a { color: #201600; }
+
+
+/*------------------------
+    footer
+------------------------*/
+
+.footer { background: #000; height: 40px; }
+
+/*-----------------------
+  second page
+-----------------------*/
+
+.remodal { max-width: 1300px; }
+.second-plane { width: 70%; }
+.img-wrap span { float: left; text-align: right; }
+.img-wrap img { width: 94%; margin-bottom: 20px; }
+.plane { margin-bottom: 30px; }
+.bis { font-size: 12px; }
+.bis-image { width: 90% !important; }
+.small-image span { color: red; }
+
+/*-----------------------
+  Media
+------------------------*/
+@media only screen and (max-width : 1600px) {
+.navbar-nav { margin-left: 24%;}
+
+}
+@media only screen and (max-width : 1500px) {
+.navbar-nav { margin-left: 20%;}
+}  
+@media only screen and (max-width : 1366px) {
+  .plan { height: 1000px; }
+  .navbar-nav { margin-left: 17%;}
+  .present-block { min-height: 500px; }
+}
+@media only screen and (max-width : 1170px) {
+  .navbar-nav { margin-left: 7%;}
+  .image04, .image09, .image11 { height: auto; }
+  .places-gallery img { height: 200px; }
+} 
+@media only screen and (max-width : 1000px) {
+.logo-middle { display: block; }
+.brand-logo { display:none ; }
+.logo { float: initial; padding-top: 20px; }
+.navbar-nav { margin-left: 21%;}
+.logo strong { display: none; }
+.present-block, .plan, .places { height: 100%; background-size: cover; background-attachment: fixed;}
+.rate, .present-block { background-size: cover; background-attachment: fixed; height: 100%; }
+.gal img { height: initial; }
+.places-gallery img { height: 180px; }
+}
+@media only screen and (max-width : 850px) {
+  .toggle-mnu img { width: 95%; }
+  .header { min-height: auto; height: 100vh; }
+  .title { font-size: 30px; padding-top: 30px; margin-bottom: 20px; }
+  .name { font-size: 40px; margin-bottom: 10px; }
+  .present-block { height: 400px; }
+  .plan-title { padding: 30px 0; font-size: 30px; }
+  .plan { height: 700px; }
+  .bottom-description { margin-bottom: 40px; }
+
+  .contact-info span { font-size: 12px; }
+  .navbar-nav { margin-left: 14%;}
+  .ancLinks { color: #000 !important;}
+}
+@media only screen and (max-width : 767px) {
+  .first-image-row, .middle-image-row img { text-align: center }
+  .last-image-row { text-align: center; }
+/*   .last-image-row img { width: 60%; } */
+  .places { height: 100%; }
+  /* .last-places-gallery img { width: 60%; } */
+  .last-places-gallery span { width: 60%; margin-bottom: 10px; }
+  .row-places-gallery { margin-top: 20px; }
+  .row-places-gallery span { margin-bottom: 15px; padding-top: 2px; }
+  .first-rate, .second-rate { margin: 0 auto; margin-bottom: 20px; }
+  .datepicker img { width: 70%;  }
+  .left-brand { overflow: auto; width: 40%; margin: 0 auto }
+  .left-brand img { display: block; float: none; display: block; margin: 0 auto; margin-bottom: 10px; }
+  .center-brand img { width: 14%; }
+  .contact-info span { text-align: center; }
+  .contact-info a { text-align: center; display: block; }
+  .datepicker { display: none; }
+  .navbar-default { background: none; }
+  .navbar-toggle { background: #555; position: absolute; top: -41px; left: 25px; }
+  .navbar-nav { text-align: center; margin-left: 0; }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form { background: rgba(165px, 194px, 246px, 0.75) !important; }
+  .ancLinks:hover { background: #a5c2f6 !important; transition: 500ms; }
+  .places-gallery img { height: initial; }
+
+} 
+@media only screen and (max-width : 500px) {
+  .header { height: 280px; }  
+  .description { width: 95%; }
+  .image-row img { margin-bottom: 20px; width: 100%; }
+  .plan { height: 700px; }
+  .places-description, .places-subtitle { width: 95%; }
+  .places-subtitle { margin-bottom: 10px; }
+  .first-rate, .second-rate { width: 70%; }
+  .datepicker img { width: 90%; }
+  .left-brand img { width: 100%; }
+  .contact-title { padding: 20px 0 10px 0; }
+  .center-brand img { width: 20%; }
+  .img-wrap img { width: 135%; }
+  .bis-image { width: 135% !important; }
+  .bis {font-size: 14px; }
+  .second-plane { width: 100%; }
+  .languages { font-size: 12px; top: 10px; }
+}
+@media only screen and (max-width : 400px) {
+  .img-wrap img { width: 153% !important; }
+}
+
+@media only screen and (max-width : 380px) {
+  .header { height: 200px; }
+  .description { margin-top: 15px; }
+  .places-description { margin-bottom: 15px; }
+  .places-gallery span { font-size: 11  px; }
+}
+@media only screen and (max-width : 320px) {
+  .logo { padding-top: 30px; }
+  .img-wrap img { width: 62px !important; height: 60px; }
+  .toggle-mnu img { margin-top: 40px; }
+  .languages { font-size: 11px; top: 5px; }
+  .separator { padding: 2px 0; }
+  .navbar-toggle { left: 10px; }
+  .dropdown { top: 5px; }
+} 
