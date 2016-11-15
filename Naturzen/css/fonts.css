@@ -1,0 +1,36 @@
+@font-face {
+	font-family:'EncodeSansCompressed-Medium';
+	src: url('/fonts/EncodeSansCompressed-Medium.eot');
+	src: url('/fonts/EncodeSansCompressed-Medium.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/EncodeSansCompressed-Medium.woff') format('woff'),
+		url('/fonts/EncodeSansCompressed-Medium.ttf') format('truetype'),
+		url('/fonts/EncodeSansCompressed-Medium.svg#EncodeSansCompressed-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-FB04;
+}
+@font-face {
+	font-family:'EncodeSansCondensed-Thin';
+	src: url('/fonts/EncodeSansCondensed-Thin.eot');
+	src: url('/fonts/EncodeSansCondensed-Thin.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/EncodeSansCondensed-Thin.woff') format('woff'),
+		url('/fonts/EncodeSansCondensed-Thin.ttf') format('truetype'),
+		url('/fonts/EncodeSansCondensed-Thin.svg#EncodeSansCondensed-Thin') format('svg');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-FB04;
+}
+@font-face {
+	font-family:'Verdana-Regular';
+	src: url('/fonts/Verdana-Regular.eot');
+	src: url('/fonts/Verdana-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/Verdana-Regular.woff') format('woff'),
+		url('/fonts/Verdana-Regular.ttf') format('truetype'),
+		url('/fonts/Verdana-Regular.svg#Verdana-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-F00D;
+}
