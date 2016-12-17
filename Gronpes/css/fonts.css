@@ -1,0 +1,48 @@
+@font-face {
+    font-family:'Eras Demi ITC';
+    src: url('../fonts/Eras Demi ITC.eot');
+	src: url('../fonts/Eras Demi ITC.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Eras Demi ITC.woff2') format('woff2'),
+		url('../fonts/Eras Demi ITC.woff') format('woff'),
+		url('../fonts/Eras Demi ITC.svg#Eras Demi ITC') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2219;
+}
+@font-face {
+    font-family:'Neris Thin';
+    src: url('../fonts/Neris Thin Regular.eot');
+    src: url('../fonts/Neris Thin Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Neris Thin Regular.woff2') format('woff2'),
+        url('../fonts/Neris Thin Regular.woff') format('woff'),
+        url('../fonts/Neris Thin Regular.svg#Neris Thin Regular') format('svg');
+    font-weight: 250;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00BB;
+}
+@font-face {
+    font-family:'Neris Light';
+    src: url('../fonts/Neris Light Regular.eot');
+    src: url('../fonts/Neris Light Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Neris Light Regular.woff2') format('woff2'),
+        url('../fonts/Neris Light Regular.woff') format('woff'),
+        url('../fonts/Neris Light Regular.svg#Neris Light Regular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00BB;
+}
+@font-face {
+    font-family:'Neris Black';
+    src: url('../fonts/Neris Black.eot');
+    src: url('../fonts/Neris Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Neris Black.woff2') format('woff2'),
+        url('../fonts/Neris Black.woff') format('woff'),
+        url('../fonts/Neris Black.svg#Neris Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}

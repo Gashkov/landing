@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+.first-screen {
+  background: url(../img/first-bg.png) 50% 50% no-repeat;
+  background-size: cover;
+  height: 1049px; }
+
+.header {
+  padding-top: 30px; }
+
+.logo img {
+  display: inline-block; }
+
+.logo strong {
+  font-family: 'Eras Demi ITC';
+  color: #fff; }
+
+.navigation {
+  background: none;
+  border: initial; }
+
+.language {
+  float: right;
+  margin: 20px 3% 0 0;
+  color: #fff; }
+
+.language:hover {
+  color: #C22821 !important;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  text-decoration: none; }
+
+.nav-center li a {
+  color: #fff !important; }
+
+.nav-center {
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-left: 9.5%; }
+
+.nav-center li a:hover {
+  color: #C22821 !important;
+  -webkit-transition: 500ms;
+  transition: 500ms; }
+
+.logo-lagre {
+  color: #fff;
+  font-family: 'Eras Demi ITC';
+  text-align: center; }
+
+.logo-lagre h1 {
+  font-size: 60px;
+  margin-top: 40%; }
+
+.description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  margin-top: 30px; }
+
+.center {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.partners-description {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200; }
+
+.first-description {
+  margin: 40px 0 0 0; }
+
+.partner-list {
+  padding: 0; }
+
+.partner-list li {
+  list-style-type: none;
+  display: inline-block;
+  width: 24%;
+  text-align: center; }
+
+.partner-list img {
+  width: 60%;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center; }
+
+.wrap-partners {
+  margin-top: 50px; }
+
+.partner-list-last {
+  margin-bottom: 40px; }
+
+.product {
+  background: #C7C6C6; }
+
+.book-img {
+  width: 85%;
+  padding-top: 30px; }
+
+.wrap-book {
+  position: relative;
+  text-align: center; }
+
+.pdf-icon {
+  position: absolute;
+  bottom: 20%;
+  left: 7%; }
+
+.wrap-logo {
+  text-align: center;
+  margin-top: 30%; }
+
+.wrap-logo img {
+  width: 20%; }
+
+.wrap-logo h1 {
+  font-size: 43px;
+  color: #222220;
+  font-family: 'Eras Demi ITC'; }
+
+.product-description {
+  color: #222220;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Neris Black';
+  margin-top: 20px; }
+
+.center-product {
+  max-width: 700px !important; }
+
+.download {
+  color: #e2251d;
+  font-family: 'Neris Black';
+  font-size: 20px; }
+
+.download:hover {
+  text-decoration: none;
+  color: #722525;
+  -webkit-transition: 500ms;
+  transition: 500ms; }
+
+.download-product {
+  text-decoration: none !important;
+  margin: 0 auto; }
+
+.center-catalog {
+  max-width: 800px; }
+
+.catalog {
+  background: #DFDFE0; }
+
+.catalog-title {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 50px; }
+
+.wrap-catalog {
+  text-align: center;
+  position: relative;
+  margin-top: 50px; }
+
+.wrap-link {
+  text-align: center;
+  margin-top: 30px; }
+
+.catalog-img {
+  width: 70%; }
+
+.catalog-pdf {
+  position: absolute;
+  right: 15%;
+  bottom: 10%;
+  width: 15%; }
+
+.catalog-description {
+  color: #222221;
+  font-size: 20px;
+  display: block;
+  text-align: center; }
+
+.wrap-link-catalog {
+  margin-top: 10px;
+  margin-bottom: 50px; }
+
+.footer {
+  background: #3E3E3D;
+  border-bottom: 12px solid #e2251d; }
+
+.footer-logo {
+  text-align: center;
+  padding: 40px 0 30px 0; }
+
+.footer-logo img {
+  width: 5%; }
+
+.footer-logo h1 {
+  margin: 0;
+  font-family: 'Eras Demi ITC';
+  color: #fff; }
+
+.footer-description span {
+  display: block;
+  text-align: center;
+  color: #fff; }
+
+.footer-description a {
+  color: #fff; }
+
+.footer-description {
+  margin-bottom: 30px; }
+
+.mail-link {
+  font-family: 'Neris Black';
+  font-size: 16px; }
+
+@media only screen and (max-width: 767px) {
+  .language {
+    width: 85%;
+    margin-right: 0; }
+  .first-screen {
+    height: 600px; }
+  .logo-lagre h1 {
+    margin-top: 18%; }
+  .footer-logo h1 {
+    font-size: 30px; }
+  .ancLinks {
+    padding-bottom: 0 !important;
+    padding-top: 7px !important; } }
+
+@media only screen and (max-width: 600px) {
+  .product-description {
+    font-size: 17px; }
+  .wrap-logo h1 {
+    font-size: 21px; }
+  .first-screen {
+    height: 400px; }
+  .logo-lagre h1 {
+    font-size: 30px; }
+  .logo-img-first {
+    width: 9%; }
+  .description {
+    font-size: 26px;
+    margin-top: 0; }
+  .logo-lagre h1 {
+    margin-top: 14%; }
+  .partners-description {
+    font-size: 20px; }
+  .hidden-elem {
+    display: none !important; }
+  /* .partner-list li { width: 19%; } */
+  .footer-logo img {
+    width: 8%; }
+  .language {
+    margin-top: 5px; }
+  .header {
+    padding-top: 8px; } }
+
+@media only screen and (max-width: 380px) {
+  .download {
+    font-size: 16px; }
+  .product-description {
+    font-size: 14px; }
+  .wrap-link {
+    margin-top: 10px; }
+  .catalog-description {
+    font-size: 14px; }
+  .catalog-title {
+    font-size: 35px;
+    margin-top: 25px; }
+  .wrap-catalog {
+    margin-top: 15px; }
+  .wrap-logo h1 {
+    font-size: 19px; }
+  .partner-list {
+    padding: 0 0 0 20px; } }
