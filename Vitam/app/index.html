@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Vitam</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <a href="index.html"><img src="img/logo.png" alt="logo" class="header__logo"></a>
+          <div id="trailer" class="is_overlay text-center">
+<!--             <img src="img/play-icon.png" alt="play-icon" class="play-icon"> -->
+            <video id="video" width="100%" height="auto" poster="img/top-banner.jpg" autoplay="autoplay" preload="auto">
+              <source src="PISCINES-LONG2.mov"></source>
+            </video>
+          </div>
+      <!-- <img class="header__banner" src="img/top-banner.jpg" alt="banner"> -->
+      <img style="cursor: pointer;" src="img/play-icon.png" alt="play-icon" class="header__play-icon header__play-link play-icon">
+    </header>
+    <main class="main">
+      <section class="container main__row">
+        <div class="row">
+          <div class="col-sm-5">
+            <img src="img/logo-middle.png" alt="logo" class="main__logo">
+          </div>
+          <div class="col-sm-7">
+            <h1 class="main__title">
+              Salvament i socorrisme
+per a piscines públiques
+            </h1>
+            <span class="main__title-description">Professionals titulats i Registrats a ROPEC (Generalitat de Catalunya)</span>
+          </div>
+        </div>
+      </section>
+      <section class="container main__row">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="microblog microblog__first">
+              <img src="img/microblog-first.jpg" alt="img" class="microblog__img">
+              <h3 class="microblog__title">Socorristes professionals</h3>
+              <span class="microblog__description">
+                El nostre equip humà està format per socorristes professionals homologats per la <strong>Generalitat de Catalunya.</strong>
+              </span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="microblog microblog__middle">
+              <img src="img/microblog-second.jpg" alt="img" class="microblog__img">
+              <h3 class="microblog__title">Atenció a l’usuari</h3>
+              <span class="microblog__description">
+               A part d’oferir un servei de <strong>Vigilància Activa,</strong> una part molt important és anticipar-nos a les situacions de risc mitjançant la <strong>prevenció</strong> i l’interactuació amb l’usuari de les instal·lacions dels nostres clients.
+              </span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="microblog microblog__last">
+              <img src="img/microblog-third.jpg" alt="img" class="microblog__img">
+              <h3 class="microblog__title">Gestió integral</h3>
+              <span class="microblog__description">
+                A Vitam Sanitaris coordinem tots els aspectes legals i tècnics per garantir un correcte funcionamient de l’instalació aquàtica. Els processos que realitzen els socorristes duran el dia queden formalitzats i documentats mitjançant la norma ISO 9001.
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="experience clearfix">
+        <div class="container">
+          <div class="row">
+              <div class="experience__info">
+                <h3 class="experience__title">Experiència i professionalitat</h3>
+                <p class="experience__description">
+                  VITAM SANITARIS som una empresa dinàmica, amb una àmplia trajectòria en el sector del socorrisme, salvament i primers auxilis.
+                </p>
+                <p class="experience__description">
+                  Oferim servei a organismes públics, entitats, clubs esportius i empreses.
+                </p>
+              </div>
+          </div>
+        </div>    
+      </section>
+      <div class="container info">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="info__title">
+              Necessita contractar un
+socorrista professional titulat?
+            </h2>
+            <p class="info__description">
+              A Vitam comptem amb un equip humà professional i
+especialitzat en serveis de salvament i socorrisme
+per a piscines públiques.
+            </p>
+            <span class="info__tel">Tels. 663 192 310 - 93 707 90 25</span>
+            <span class="info__address">C/Pic Negre, 37 nau 13 · Polígon Industrial St.Isidre <br>
+08272 ST.FRUITÓS DEL BAGES · (Barcelona)</span>
+          </div>
+          <div class="col-md-6">
+            <form id="form" class="form">
+              <div class="form__row">
+                <label for="name" class="form__label">Nom de Contacte</label>
+                <input type="text" name="name" class="form__input" placeholder=" Nom o Empresa" required="required">
+              </div>
+              <div class="form__row">
+                <label for="email" class="form__label">Correu Electrònic</label>
+                <input type="email" name="email" class="form__input" placeholder=" you@example.com" required="required">
+              </div>
+              <div class="form__row">
+                <label for="message" class="form__label">Missatge</label>
+                <textarea class="form__input form__input_textarea" name="messages" placeholder=" Necessito informació" required="required"></textarea>
+              </div>
+              <div class="form__row">
+                <input type="submit" class="form__input form__input_send" value="Send" required="required">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer container">
+      <div class="row">
+        <div class="col-sm-6">
+          <a href="http://vitamsanitaris.es/"><img src="img/logo-footer.png" alt="logo"></a>
+        </div>
+        <div class="col-sm-6">
+          <div class="soc-media">
+            <a href="https://twitter.com/VitamSanitaris" class="soc-media__link" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/vitamsanitaris/" class="soc-media__link" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/vitamsanitaris/" class="soc-media__link" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="javascripts/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="javascripts/common.js"></script>
+  <script type="text/javascript">
+$(document).ready(function(){
+    $("#form").submit(function() { //устанавливаем событие отправки для формы с id=form
+            var form_data = $(this).serialize(); //собераем все данные из формы
+            $.ajax({
+            type: "POST", //Метод отправки
+            url: "mail.php", //путь до php фаила отправителя
+            data: form_data,
+            success: function(){
+                alert('Message were sended!');
+              }
+            });
+    });
+});    
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+@font-face {
+	font-family:'ZurichBT-RomanCondensed';
+	src: url('ZurichBT-RomanCondensed_gdi.eot');
+	src: url('ZurichBT-RomanCondensed_gdi.eot?#iefix') format('embedded-opentype'),
+		url('ZurichBT-RomanCondensed_gdi.woff') format('woff'),
+		url('ZurichBT-RomanCondensed_gdi.ttf') format('truetype'),
+		url('ZurichBT-RomanCondensed_gdi.svg#ZurichBT-RomanCondensed') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: condensed;
+	unicode-range: U+0020-02DC;
+}
+@font-face {
+	font-family:'ZurichCondensedBT-Regular';
+	src: url('ZurichCondensedBT_gdi.eot');
+	src: url('ZurichCondensedBT_gdi.eot?#iefix') format('embedded-opentype'),
+		url('ZurichCondensedBT_gdi.woff') format('woff'),
+		url('ZurichCondensedBT_gdi.ttf') format('truetype'),
+		url('ZurichCondensedBT_gdi.svg#ZurichCondensedBT-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: condensed;
+	unicode-range: U+0020-02DC;
+}
