@@ -16,6 +16,7 @@
           <div id="trailer" class="is_overlay text-center">
 <!--             <img src="img/play-icon.png" alt="play-icon" class="play-icon"> -->
             <video id="video" width="100%" height="auto" poster="img/top-banner.jpg" autoplay="autoplay" preload="auto">
+                <source src="PISCINES-LONG2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'></source>    
               <source src="PISCINES-LONG2.mov"></source>
             </video>
           </div>
@@ -100,7 +101,7 @@ per a piscines públiques.
 08272 ST.FRUITÓS DEL BAGES · (Barcelona)</span>
           </div>
           <div class="col-md-6">
-            <form id="form" class="form">
+            <form id="form" method="post" action="" class="form">
               <div class="form__row">
                 <label for="name" class="form__label">Nom de Contacte</label>
                 <input type="text" name="name" class="form__input" placeholder=" Nom o Empresa" required="required">
@@ -141,19 +142,23 @@ per a piscines públiques.
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <script src="javascripts/common.js"></script>
   <script type="text/javascript">
-$(document).ready(function(){
-    $("#form").submit(function() { //устанавливаем событие отправки для формы с id=form
-            var form_data = $(this).serialize(); //собераем все данные из формы
-            $.ajax({
-            type: "POST", //Метод отправки
-            url: "mail.php", //путь до php фаила отправителя
-            data: form_data,
-            success: function(){
-                alert('Message were sended!');
-              }
-            });
-    });
-});    
+$(document).ready(function() {
+
+	$("#form").submit(function() {
+		$.ajax({
+			type: "POST",
+			url: "mail.php",
+			data: $(this).serialize()
+		}).done(function() {
+			$(this).find("input").val("");
+			alert("El vostre missatge ha estat enviat amb èxit. Ens posarem en contacte amb vostè. Gràcies");
+			$('.form__input').css('border', '1px solid green');
+			$("#form").trigger("reset");
+		});
+		return false;
+	});
+	
+});
 </script>
 </body>
 </html>
